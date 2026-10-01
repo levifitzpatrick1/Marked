@@ -1,0 +1,16 @@
+{
+  "$schema": "https://raw.githubusercontent.com/LuaLS/vscode-lua/master/setting/schema.json",
+  "runtime.version": "Lua 5.1",
+  "workspace.library": [
+    "/home/levi/.local/share/wow-api/Annotations/Core"
+  ],
+  "workspace.checkThirdParty": false,
+  "diagnostics.globals": [
+    "SLASH_*",
+    "SlashCmdList",
+    "KOS_DB"
+  ],
+  "diagnostics.disable": [
+    "lowercase-global"
+  ]
+}
